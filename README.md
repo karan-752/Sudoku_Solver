@@ -8,3 +8,6 @@ Work Flow of the Program:
 &nbsp; &nbsp; b] The main function to solve the board is then called named solve() which works on the principle of Backtracking.  
 &nbsp; &nbsp; c] The solve() function searches for a zero (which denotes an empty space) and tries to fill it with the first possible valid number available from the range of 1 to 9. In case, no such number is found, the solution backtracks to the last known point and tries the next possible number and so and so forth.  
 &nbsp; &nbsp; d] Other helper functions include removeNumber() and isValid() to remove numbers from the set of numbers present during backtracking from the vectors named row, col and blk. isValid() checks the vectors row, col and blk to ascertain if the number is already present in those specific row, column and block.
+
+![Alt text](Screenshots/Input.png?raw=true "Input")  
+![Alt text](Screenshots/Output.png?raw=true "Output")
